@@ -79,66 +79,6 @@ function _droplitevent_content_default_fields() {
     ),
   );
 
-  // Exported field: field_event_categories
-  $fields[] = array(
-    'field_name' => 'field_event_categories',
-    'type_name' => 'event',
-    'display_settings' => array(
-      'label' => array(
-        'format' => 'above',
-        'exclude' => 0,
-      ),
-      'teaser' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '2' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '3' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '5' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'content_taxonomy',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'content_taxonomy',
-    'active' => '1',
-    'save_term_node' => 0,
-    'vid' => '1',
-    'parent' => '0',
-    'parent_php_code' => '',
-    'depth' => '',
-    'widget' => array(
-      'new_terms' => 'insert',
-      'extra_parent' => '0',
-      'maxlength' => '255',
-      'active_tags' => 1,
-      'default_value' => NULL,
-      'default_value_php' => NULL,
-      'label' => 'Event Categories',
-      'weight' => '-3',
-      'description' => '',
-      'type' => 'content_taxonomy_autocomplete',
-      'module' => 'content_taxonomy_autocomplete',
-    ),
-  );
-
   // Exported field: field_front_page_description
   $fields[] = array(
     'field_name' => 'field_front_page_description',

@@ -1,8 +1,5 @@
 core = "6.x"
 dependencies[] = "calendar"
-dependencies[] = "content_taxonomy"
-dependencies[] = "content_taxonomy_autocomplete"
-dependencies[] = "content_taxonomy_options"
 dependencies[] = "date"
 dependencies[] = "date_api"
 dependencies[] = "date_popup"
